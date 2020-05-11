@@ -1,0 +1,27 @@
+Usando ubuntu
+
+1) sudo apt-get update; sudo apt-get install --no-install-recommends make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+2) install Pyenv https://github.com/pyenv/pyenv#installation
+
+3) install version python 3.8.2 (pyenv install 3.8.2)
+
+4) pyenv global 3.8.2
+
+5) install atom
+
+6) install google chrome
+
+7) install webdriver
+	- Chrome: https://chromedriver.chromium.org/downloads
+	- unzip chromedriver_linux64.zip
+	- sudo cp chromedriver /usr/local/bin
+
+	- Firefox: https://github.com/mozilla/geckodriver/releases
+	- tar xvvf geckodriver-v0.26.0-linux64.tar.gz
+	- sudo cp geckodriver /usr/local/bin
+
+8) configure atom
+  - install platformio-ide-terminal
+
+Para que usar o pyenv: controlar as versões do Python em projetos.
