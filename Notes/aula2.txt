@@ -1,0 +1,22 @@
+What is selenium?
+  It is a library to help solve manual and repetitive problems
+  It uses the browser as a user
+
+Why use?
+  - Test Automation
+  - Create bots
+  - Reduction repetitive works
+  - Collect data
+
+selenium IDE: automating tasks easily
+
+--------------------------------------------------------
+
+programmer -> code -> selenium -> webdriver -> browser
+
+--------------------------------------------------------
+
+selenium grid:
+in a very short form or selenium grid is a hub that allows us
+to centralize, parallelize and distribute our tests on nodes
+that are registered

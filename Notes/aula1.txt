@@ -24,4 +24,6 @@ Usando ubuntu
 8) configure atom
   - install platformio-ide-terminal
 
-Para que usar o pyenv: controlar as versões do Python em projetos.
+9) install docker and config
+
+Why use pyenv: control Python versions in projects
