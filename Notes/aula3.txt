@@ -1,0 +1,18 @@
+1) Create a virtualenv
+  - pip install virtualenv
+  - virtualenv name_virtualenv
+  - souce name_virtualenv/bin/activate (ubuntu)
+  - pip3 install selenium
+
+  - What is virtualenv?
+      Basically, a virtual environment packages all the dependencies that
+      a project needs and stores it in the directory, making sure that no
+      packages are installed directly on the operating system.
+
+2) Explanation about html structure
+
+3) Explanation about Document Object Model(DOM)
+
+4) code Exercises/aula3/aula3.py
+  Obs: when something comes from the web page,
+  the variable is of type string
