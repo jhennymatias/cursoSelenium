@@ -1,14 +1,31 @@
 from selenium.webdriver import Chrome
+from time import sleep
+def find_by_text(browser, tag, text):
+    elementos = browser.find_elements_by_tag_name(tag)
+    for elemento in elementos:
+        if elemento.text == text:
+            return elemento
+
+
+def find_by_href(browser, link):
+    elementos = browser.find_elements_by_tag_name('a')
+    for elemento in elementos:
+        if link in elemento.get_attribute('href'):
+            return elemento
 
 browser = Chrome()
-url     = 'http://selenium.dunossauro.live/aula_04_b.html'
-browser.get(url)
 
-# busca a primeira ul
-lista_n = browser.find_element_by_tag_name('ul')
+browser.get('http://selenium.dunossauro.live/aula_04_b.html')
 
-#busca todos os li
-lis     = lista_n.find_elements_by_tag_name('li')
+nomes_das_caixas = ['um', 'dois', 'tres', 'quatro']
 
-#busca do primeiro li busca tag a e seu texto
-a_name  = lis[0].find_element_by_tag_name('a').text
+for nome in nomes_das_caixas:
+    find_by_text(browser, 'div', nome).click()
+
+for nome in nomes_das_caixas:
+    sleep(0.7)
+    browser.back()
+
+for nome in nomes_das_caixas:
+    sleep(0.7)
+    browser.forward()

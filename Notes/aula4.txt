@@ -17,3 +17,7 @@
   - The browser works like a stack
   - History:
     get => request
+
+  # back without making a new request
+  - browser.back()
+  - browser.forward()
