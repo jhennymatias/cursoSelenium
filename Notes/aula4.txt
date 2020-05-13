@@ -1,0 +1,19 @@
+1) Nestar: tags within tags
+  - Example:
+
+    <html>
+      <body>
+          <ul>
+            <li> text 1 </li>
+            <li> text 2 </li>
+        </ul>
+      </body>
+    </html>
+
+2) Attributes: href, id
+  - used to differentiate two webElement
+
+3) Navigation:
+  - The browser works like a stack
+  - History:
+    get => request
